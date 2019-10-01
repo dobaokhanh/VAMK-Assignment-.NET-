@@ -1,0 +1,11 @@
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\bin\Debug\netcoreapp3.0\FlightManagementSystem.exe
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\bin\Debug\netcoreapp3.0\FlightManagementSystem.deps.json
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\bin\Debug\netcoreapp3.0\FlightManagementSystem.runtimeconfig.json
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\bin\Debug\netcoreapp3.0\FlightManagementSystem.runtimeconfig.dev.json
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\bin\Debug\netcoreapp3.0\FlightManagementSystem.dll
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\bin\Debug\netcoreapp3.0\FlightManagementSystem.pdb
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\obj\Debug\netcoreapp3.0\FlightManagementSystem.csprojAssemblyReference.cache
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\obj\Debug\netcoreapp3.0\FlightManagementSystem.AssemblyInfoInputs.cache
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\obj\Debug\netcoreapp3.0\FlightManagementSystem.AssemblyInfo.cs
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\obj\Debug\netcoreapp3.0\FlightManagementSystem.dll
+C:\Users\bkdo3\Desktop\C#\Assignment1.2\Assignment1.2\obj\Debug\netcoreapp3.0\FlightManagementSystem.pdb
