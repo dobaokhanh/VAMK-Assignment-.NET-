@@ -1,4 +1,5 @@
-﻿using Assignment1._2.Entity;
+﻿using Assignment1._2.DAO;
+using Assignment1._2.Entity;
 using Assignment1._2.Util;
 using System;
 using System.Collections.Generic;
@@ -67,7 +68,7 @@ namespace Assignment1._2.Services
         public void AddCustomer(List<Flight> _flightList)
         {
             Flight _flight = new Flight();
-            String _flightId, _customerId, _loopCustomer = "";
+            String _flightId, _customerId, _loopCustomer = "N";
             do
             {
                 Console.WriteLine("Enter the flight id: ");
@@ -95,6 +96,7 @@ namespace Assignment1._2.Services
                 if (!Validator.IsCustomerIdExisted(_customerId))
                 {
                     Console.WriteLine("This customer id is not existed! Please enter again");
+                    _loopCustomer = "Y";
                     continue;
                 }
                 _flight.CustomerId.Add(_customerId);
@@ -129,6 +131,10 @@ namespace Assignment1._2.Services
                 if (f.Id.Equals(_flightId))
                 {
                     Console.WriteLine(f.ToString());
+                    foreach(string customerId in f.CustomerId)
+                    {
+                        Console.WriteLine(CustomerDAO.GetCustomerById(customerId).ToString());
+                    }
                     break;
                 }
             }

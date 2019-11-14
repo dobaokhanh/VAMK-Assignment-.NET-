@@ -1,4 +1,5 @@
-﻿using Assignment1._2.Entity;
+﻿using Assignment1._2.DAO;
+using Assignment1._2.Entity;
 using Assignment1._2.Util;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,12 @@ namespace Assignment1._2.Services
         /// <param name="_customerList"></param>
         public void GetCustomerInfo(List<Customer> _customerList)
         {
-            Customer _customer = new Customer();
+            Customer _customer;
             String _customerName, _customerId;
             String _loopCustomerInfo;
             do
             {
+                _customer = new Customer();
                 do
                 {
                     Console.WriteLine("Enter the customer id: ");
@@ -81,6 +83,7 @@ namespace Assignment1._2.Services
                     Console.WriteLine("This flight id is not existed ! Please enter again.");
                     continue;
                 }
+                FlightDAO.GetFlightById(_flightId).CustomerId.Add(_customerId);
                 _customer.FlightId.Add(_flightId);
                 Console.WriteLine("Add succeed !");
                 Console.WriteLine("Do you want to continue entering flight id (Y/N): ");

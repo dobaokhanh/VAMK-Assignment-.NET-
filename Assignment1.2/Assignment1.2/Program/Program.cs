@@ -9,8 +9,8 @@ namespace Assignment1._2.Program
 {
     class Program
     {
-        private static List<Flight> listOfFlight = FlightDAO.getFlightDAO();
-        private static List<Customer> listOfCustomer = CustomerDAO.getCustomerDAO();
+        private static List<Flight> listOfFlight = FlightDAO.GetFlightDAO();
+        private static List<Customer> listOfCustomer = CustomerDAO.GetCustomerDAO();
         static void Main(string[] args)
         {
             String choice;

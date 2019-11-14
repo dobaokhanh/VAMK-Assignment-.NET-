@@ -1,5 +1,6 @@
 ﻿using Assignment1._2.Entity;
 using System.Collections.Generic;
+using System;
 
 namespace Assignment1._2.DAO
 {
@@ -7,13 +8,28 @@ namespace Assignment1._2.DAO
     {
         private static List<Customer> customerDAO = new List<Customer>();
 
-        public static List<Customer> getCustomerDAO() {
+        public static List<Customer> GetCustomerDAO() {
             return customerDAO;
         }
 
-        public static void setCustomerDAO(List<Customer> _customerDAO)
+        public static void SetCustomerDAO(List<Customer> _customerDAO)
         {
             customerDAO = _customerDAO;
+        }
+
+        public static Customer GetCustomerById(string id)
+        {
+            Customer customerFound = new Customer();
+            foreach (Customer cus in customerDAO)
+            {
+                if (cus.Id.Equals(id))
+                {
+                    customerFound = cus;
+                    break;
+                }
+                    
+            }
+            return customerFound;
         }
     }
 }
