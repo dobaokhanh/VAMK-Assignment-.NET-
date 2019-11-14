@@ -1,5 +1,5 @@
 # VAMK-Assignment-C#
-> This repository handles the assignment in the course Windows Programming in VAMK
+> This repository handles the assignments in the course Windows Programming in VAMK
 ## Table of contents
 * [Assignment 1](#Assignment-1)
 
