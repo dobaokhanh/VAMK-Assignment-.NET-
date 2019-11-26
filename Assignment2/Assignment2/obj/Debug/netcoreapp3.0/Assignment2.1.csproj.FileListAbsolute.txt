@@ -1,0 +1,10 @@
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\bin\Debug\netcoreapp3.0\Assignment2.1.exe
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\bin\Debug\netcoreapp3.0\Assignment2.1.deps.json
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\bin\Debug\netcoreapp3.0\Assignment2.1.runtimeconfig.json
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\bin\Debug\netcoreapp3.0\Assignment2.1.runtimeconfig.dev.json
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\bin\Debug\netcoreapp3.0\Assignment2.1.dll
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\bin\Debug\netcoreapp3.0\Assignment2.1.pdb
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\obj\Debug\netcoreapp3.0\Assignment2.1.AssemblyInfoInputs.cache
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\obj\Debug\netcoreapp3.0\Assignment2.1.AssemblyInfo.cs
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\obj\Debug\netcoreapp3.0\Assignment2.1.dll
+C:\Users\bkdo3\Desktop\C#\Assignment2\Assignment2\obj\Debug\netcoreapp3.0\Assignment2.1.pdb
